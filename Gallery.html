@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Gallery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        .col-lg-4 {
+
+            margin-bottom: 50px;
+            margin-top: 20px;
+        }
+
+        .container {
+
+            width: 1000px;
+            background-color: rgb(228, 225, 225);
+            height: 200px;
+            margin-top: 10px; 
+            padding: 75px 30px;
+
+        }
+
+        .row {
+
+            width: 1025px;
+            margin: 0px auto;
+        }
+
+        .container-fluid{
+
+            padding-left: 250px;
+        }
+
+        .img-thumbnail:hover{
+
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CSS227</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumpotron">
+            <h1>My Gallery</h1>
+            <p>The ordinary photo gallery</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <img class="img-thumbnail" src="https://ak.picdn.net/shutterstock/videos/29137198/thumb/1.jpg" >
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+            <img class="img-thumbnail"
+                src="https://www.thaiticketmajor.com/variety/img_news/title/original1/1473/10473/title_ttmnews_10473-20181107145819.jpg">
+        </div>
+        <div class="col-lg-4 col-md-6" class="third_pic">
+            <img class="img-thumbnail"
+                src="https://opendevelopmentmekong.net/wp-content/uploads/2015/02/Pine_forest_in_Don_Duong_Lam_Dong_Vietnam.jpg">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <img class="img-thumbnail"
+                src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/08-06-2020_Coral-Reef-Image_Solomon-Islands.jpg/image1170x530cropped.jpg">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <img class="img-thumbnail"
+                src="https://www.sarakadeelite.com/wp-content/uploads/2020/06/virtual-divint-open.jpg">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <img class="img-thumbnail" src="https://athidtiya1995.files.wordpress.com/2014/11/turtle2.jpg">
+        </div>
+
+    </div>
+
+</body>
+</html>
